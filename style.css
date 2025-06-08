@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+input, button {
+  width: 100%;
+  padding: 8px;
+  margin: 4px 0;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1565c0;
+}
+fieldset {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: white;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+  font-size: 14px;
+}
+th {
+  background-color: #e0e0e0;
+}
